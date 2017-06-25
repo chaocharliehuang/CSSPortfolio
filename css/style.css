@@ -1,0 +1,152 @@
+
+/***************GENERAL*****************/
+
+body {
+    font-family: "Tahoma", Geneva, sans-serif;
+    color: white;
+    font-size: 90%;
+}
+
+h1 {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+p, a {
+    color: black;
+}
+
+.col-bg {
+    background: white;
+    background: linear-gradient(to left, #dbccda, #fefefe);
+}
+
+.col-div {
+    width: 280px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.col-label {
+    background: #888694;
+    background: linear-gradient(#b2b2b5,#787680,#b2b2b5);
+}
+
+.h2-label, .h3-label {
+    padding: 10px;
+    margin: 0;
+    display: block;
+}
+
+.col-p {
+    padding: 10px;
+    margin: 0;
+}
+
+/***************HEADER*****************/
+
+.header {
+    background-color: #f8f8f8;
+    color: black;
+    width: 900px;
+    padding: 20px 0 10px 20px;
+}
+
+.header h1 {
+    display: inline;
+}
+
+.header h2 {
+    display: inline-block;
+    text-align: right;
+    width: 700px;
+    margin: 0;
+    vertical-align: top;
+}
+
+/******************DOCUMENT CONTAINER**************/
+
+.container {
+    padding: 20px;
+    width: 880px;
+    background: #6f5964;
+    background: radial-gradient(#6f5964, #1c0c10);
+}
+
+/******************PIC ABOUT*************/
+
+.pic-about {
+    margin-bottom: 20px;
+}
+
+#profile-pic {
+    width: 380px;
+    border: solid #c0c0c0 3px;
+    margin-right: 20px;
+}
+
+.about {
+    display: inline-block;
+    width: 468px;
+    height: 256px;
+    vertical-align: top;
+}
+
+/*************PROJECT DESCRIPTIONS**************/
+
+.laMode-col, .familyContacts-col {
+    margin-right: 15px;
+}
+
+.col-img {
+    width: 280px;
+}
+
+.proj-desc .col-div {
+    height: 390px;
+}
+
+/*************TECHNOLOGIES**************/
+
+.technologies .col-div {
+    height: 220px;
+}
+
+.tech-icons img {
+    display: inline-block;
+    width: 40px;
+    margin: 0 8px 10px 0;
+}
+
+button {
+    padding: 5px;
+    border: 2px black solid;
+    border-radius: 5px;
+    background-color: #407d61;
+    color: white;
+    display: block;
+    margin: 0 auto;
+    box-shadow: 5px 5px 5px #8a8a8b;
+}
+
+/*****************FOOTER***************/
+
+.footer {
+    text-align: center;
+    background-color: #f8f8f8;
+    color: black;
+    width: 920px;
+    padding: 10px 0;
+}
+
+.footer p {
+    margin: 0 0 10px;
+}
+
+.footer img {
+    width: 20px;
+    vertical-align: middle;
+}
+
+.social-links {
+    display: inline-block;
+}
